@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  border: solid red;
+  min-height: 500px;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}
+.box {
+  background-color: blueviolet;
+  display: flex;
+  height: 100px;
+  /* width: 100px; */
+  flex-basis: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  background-color: blueviolet;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 3;
+}
